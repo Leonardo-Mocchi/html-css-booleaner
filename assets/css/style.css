@@ -11,12 +11,16 @@
 
 body {
     margin: 0;
-    line-height: 23px;
+    line-height: 1.3rem;
     letter-spacing: -0.15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 main {
+    margin: 0 3px;
+}
+
+footer {
     margin: 0 3px;
 }
 
@@ -36,7 +40,7 @@ main {
 
 /* /header */
 
-/* main */
+/* title */
 #article_header {
     letter-spacing: -0.7px;
     margin-top: 11px;
@@ -45,7 +49,6 @@ main {
 
 #article_desc {
     margin-top: 0px;
-    margin-bottom: ;
     color: var(--booleaner-soft);
     font-size: 9.5px;
     font-weight: bold;
@@ -53,10 +56,30 @@ main {
 }
 
 #fake_link {
-    color: var(--booleaner-accent)
+    color: var(--booleaner-accent);
 }
 
 #article_date {
     font-size: 8px;
     font-weight: normal;
 }
+
+/* /title */
+
+/* photos */
+
+#tbl_1 {
+    height: 230px
+}
+
+#tbl_2 {
+    height: 230px;
+}
+
+#photos_sources {
+    margin-top: 0px;
+    font-size: 7.5px;
+    line-height: 7px;
+}
+
+/* /photos */
