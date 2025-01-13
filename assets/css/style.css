@@ -123,6 +123,26 @@ footer {
 /* /table */
 /* /main */
 
-.gray_text {
+#more_articles {
     color: var(--booleaner-soft);
+    margin-bottom: 5px;
+}
+
+#art1 {
+    color: white;
+    font-size: 12px;
+    background-image: url(../img/monitor.jpg);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    height: 95px;
+
+}
+
+#art2 {
+    color: white;
+    font-size: 12px;
+    background-image: url(../img/graph.jpg);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    height: 130px;
 }
