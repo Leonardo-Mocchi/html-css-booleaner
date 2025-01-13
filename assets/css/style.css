@@ -2,7 +2,7 @@
     --booleaner-dark: black;
     --booleaner-accent: #36B1E7;
     --booleaner-pattern-bg: #4EA0FF;
-    --booleaner-soft: #808080;
+    --booleaner-soft: #888888;
     --booleaner-highlight: #FFFF00;
     --booleaner-table-light: white;
     --booleaner-table-header: #20A9E5;
@@ -11,13 +11,16 @@
 
 body {
     margin: 0;
+    line-height: 23px;
+    letter-spacing: -0.15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 main {
-    margin: 0 5px;
+    margin: 0 3px;
 }
 
+/* header */
 #site_header {
     background-color: var(--booleaner-pattern-bg);
     background-image: url(../img/pattern.png);
@@ -27,17 +30,33 @@ main {
 
 #booleaner_logo {
     margin: 0 3px;
-    margin-top: 25px;
     height: 30px;
+    margin-top: 24px;
+}
+
+/* /header */
+
+/* main */
+#article_header {
+    letter-spacing: -0.7px;
+    margin-top: 11px;
     margin-bottom: 4px;
 }
 
-#article_header {
-    margin-top: 10px;
-    letter-spacing: -0.7px;
-    line-height: 1;
+#article_desc {
+    margin-top: 0px;
+    margin-bottom: ;
+    color: var(--booleaner-soft);
+    font-size: 9.5px;
+    font-weight: bold;
+    line-height: 90%;
 }
 
-#article_desc {
-    a
+#fake_link {
+    color: var(--booleaner-accent)
+}
+
+#article_date {
+    font-size: 8px;
+    font-weight: normal;
 }
