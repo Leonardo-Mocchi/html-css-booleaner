@@ -82,7 +82,7 @@ footer {
 /* / first photos */
 
 .paragraph {
-    font-size: 10px;
+    font-size: 10.5px;
     line-height: 10px;
 }
 
@@ -92,4 +92,28 @@ footer {
 
 .list {
     padding: 8px;
+}
+
+/* /first paragraph */
+
+#table {
+    padding: 0 0px;
+    border-collapse: collapse;
+    line-height: normal;
+    text-justify: distribute-all-lines;
+    margin-bottom: 15px;
+}
+
+#thead {
+    background-color: var(--booleaner-table-header);
+    color: var(--booleaner-table-light);
+    font-weight: bolder;
+}
+
+.table_alternate_row {
+    background-color: var(--booleaner-table-medium);
+}
+
+.td_column_width {
+    min-width: 230px;
 }
