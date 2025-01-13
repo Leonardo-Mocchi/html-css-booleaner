@@ -1,0 +1,33 @@
+:root {
+    --booleaner-dark: black;
+    --booleaner-accent: #36B1E7;
+    --booleaner-pattern-bg: #4EA0FF;
+    --booleaner-soft: #808080;
+    --booleaner-highlight: #FFFF00;
+    --booleaner-table-light: white;
+    --booleaner-table-header: #20A9E5;
+    --booleaner-table-medium: #B1E5F2;
+}
+
+body {
+    margin: 0;
+}
+
+#site_header {
+    margin: 0;
+    background-color: var(--booleaner-pattern-bg);
+    background-image: url(../img/pattern.png);
+    background-size: 50%;
+    background-repeat: unset;
+    height: 5rem;
+}
+
+#booleaner_logo {
+    height: 2rem;
+    vertical-align: text-bottom;
+
+}
+
+#article_header {
+    margin: 0;
+}
