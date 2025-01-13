@@ -11,23 +11,33 @@
 
 body {
     margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+    margin: 0 5px;
 }
 
 #site_header {
-    margin: 0;
     background-color: var(--booleaner-pattern-bg);
     background-image: url(../img/pattern.png);
-    background-size: 50%;
-    background-repeat: unset;
-    height: 5rem;
+    background-size: 240px;
+    background-repeat: repeat-x;
 }
 
 #booleaner_logo {
-    height: 2rem;
-    vertical-align: text-bottom;
-
+    margin: 0 3px;
+    margin-top: 25px;
+    height: 30px;
+    margin-bottom: 4px;
 }
 
 #article_header {
-    margin: 0;
+    margin-top: 10px;
+    letter-spacing: -0.7px;
+    line-height: 1;
+}
+
+#article_desc {
+    a
 }
