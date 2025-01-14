@@ -102,7 +102,7 @@ footer {
     padding: 0 0px;
     border-collapse: collapse;
     line-height: normal;
-    text-justify: distribute-all-lines;
+    text-align: left;
     margin-bottom: 15px;
 }
 
